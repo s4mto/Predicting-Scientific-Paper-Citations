@@ -6,7 +6,7 @@ This repository contains a machine learning solution for predicting the number o
 The goal of this challenge was to develop a model that predicts the number of citations for scientific papers using metadata such as title, abstract, authors, venue, and other related attributes. The provided dataset included training data with citation counts and test data without citation counts, which required predictions.
 
 # Solution Approach
-1. Data Preprocessing and Feature Engineering
+## 1. Data Preprocessing and Feature Engineering
   * Extracted numerical features such as:
     - year: Publication year
     - num_authors: Number of authors
@@ -16,7 +16,7 @@ The goal of this challenge was to develop a model that predicts the number of ci
   * Encoded categorical features like venue using LabelEncoder.
   * Transformed text-based features (title, abstract, authors, venue) using TF-IDF to generate meaningful vectors for model training.
   
-2. Model Development
+## 2. Model Development
   * Explored multiple regression algorithms:
     - Ridge Regression
     - Gradient Boosting
@@ -28,7 +28,7 @@ The goal of this challenge was to develop a model that predicts the number of ci
   * Selected LightGBM as the final model due to its superior performance and efficiency.
 
 
-3. Model Pipeline
+## 3. Model Pipeline
   * Preprocessing: Applied TF-IDF transformations for text features and scaled numerical features directly.
   * LightGBM Hyperparameters:
     - num_leaves=31
@@ -37,7 +37,7 @@ The goal of this challenge was to develop a model that predicts the number of ci
     - learning_rate=0.1
    
   
-4. Evaluation
+## 4. Evaluation
   * Used cross-validation to ensure model robustness and reduce overfitting.
   * Achieved the following performance:
     - Training Mean Absolute Error (MAE): 29.81
