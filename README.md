@@ -1,6 +1,6 @@
 # Predicting Scientific Paper Citations with Machine Learning
 
-This repository contains a machine learning solution for predicting the number of citations received by scientific papers based on their metadata. The project was part of a challenge to build a robust regression model, leveraging text-based and numerical features to generate accurate predictions.
+This repository contains a machine learning solution for predicting the number of citations received by scientific papers based on their metadata. The project was part of a challenge to build a robust regression model, leveraging text-based and numerical features to generate accurate predictions. Due to file size limitations on GitHub, the dataset used for this project is not uploaded here. You can download it from this <https://drive.google.com/drive/folders/1mpJOoZW9Gn3gJ6kHN4zKSm8EtliOuOAq?usp=sharing> for use.
 
 # Project Overview
 The goal of this challenge was to develop a model that predicts the number of citations for scientific papers using metadata such as title, abstract, authors, venue, and other related attributes. The provided dataset included training data with citation counts and test data without citation counts, which required predictions.
